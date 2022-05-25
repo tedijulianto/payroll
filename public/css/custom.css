@@ -1,0 +1,158 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  background-color: #2d2d2d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+.containerBase {
+  width: 500px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.containerMini {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.navbar {
+  box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+}
+
+/* ======================================= Reusable CSS ========================================= */
+.bgGradient {
+  background: linear-gradient(249.52deg, #4684eb 30.77%, #00abfe 90.74%);
+  width: 500px;
+  height: 290px;
+  padding: 16px 0;
+}
+
+.subtitle {
+  font-size: 12px;
+}
+
+.fontMini {
+  font-size: 10px;
+}
+
+.fontSpace {
+  letter-spacing: 0.13em;
+}
+
+/* ======================================= Home CSS ========================================= */
+
+.cardPadding {
+  /* padding: 2.5rem 3.5rem; */
+  width: 235px;
+  height: 130px;
+}
+
+.paddingContent {
+  padding: 16px 16px 0 16px;
+}
+
+/* .heightContent {
+  height: fit-content;
+} */
+
+.imgUser {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.rectangle {
+  width: 100%;
+  height: 20px;
+  border-radius: 3px;
+  background-color: white;
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+
+.cardText1 {
+  position: absolute;
+  top: 15px;
+  left: 1rem;
+}
+
+.cardText2 {
+  position: absolute;
+  top: 75px;
+  left: 1rem;
+}
+
+/* ======================================= Account CSS ========================================= */
+.paddingContentAccount {
+  padding: 16px 16px 0 16px;
+  margin-top: 63px;
+}
+
+.imgUserAccount {
+  width: 100px;
+  height: 100px;
+}
+
+.cardContract {
+  width: 225px;
+  height: 60px;
+}
+
+.bgLightBlue {
+  background-color: #e1f3f3;
+}
+
+.boxIcon {
+  width: 34px;
+  height: 34px;
+  background-color: #4684eb;
+}
+
+.boxIconRed {
+  width: 34px;
+  height: 34px;
+  background-color: #d83e3e;
+}
+
+/* ======================================= Payroll CSS ========================================= */
+.paddingContentPayroll {
+  padding: 16px 16px 57px 16px;
+  margin-top: 16px;
+}
+
+.cardInfo {
+  width: 150px;
+  height: 90px;
+}
+
+.cardPayroll {
+  box-shadow: 0px 1px 16px 2px rgba(168, 168, 168, 0.25);
+}
+
+.boxIconPayroll {
+  width: 54px;
+  height: 54px;
+  background-color: #4684eb;
+}
+
+.bgLightGreen {
+  background-color: rgba(30, 214, 158, 0.3);
+}
