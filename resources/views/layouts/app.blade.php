@@ -17,9 +17,9 @@
 
 <body>
   <div class="containerMini containerBase">
-    {{-- @include('partials.home') --}}
+    @include('partials.home')
     {{-- @include('partials.account') --}}
-    @include('partials.payroll')
+    {{-- @include('partials.payroll') --}}
     @include('partials.navbar')
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -100,6 +100,14 @@ p {
   left: 1rem;
 }
 
+.modal-dialog {
+  max-width: 465px;
+}
+
+.modal-header {
+  background-color: #e1f3f3;
+}
+
 /* ======================================= Account CSS ========================================= */
 .paddingContentAccount {
   padding: 16px 16px 0 16px;
